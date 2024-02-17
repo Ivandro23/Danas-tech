@@ -13,9 +13,7 @@
     ;
 }
 
-body {
-    overflow-x:hidden; 
-}
+body {}
 
 header {
     align-items: center;
@@ -57,7 +55,7 @@ header a:hover {
 
 }
 
-header> img {
+header>img {
     width: 75%;
 }
 
@@ -109,7 +107,7 @@ header>.button-nav {
 }
 
 .container {
-    position: relative; 
+    position: relative;
     width: 100dvw;
 
 }
@@ -150,7 +148,7 @@ h4 {
 span>img {
     width: 30px;
     margin-left: 10px;
-    
+
 }
 
 span>a {
@@ -208,7 +206,7 @@ span>a {
 }
 
 .pub1>img {
-    width: 130%;
+    width: 760px;
     margin-top: -335px;
 }
 
@@ -223,11 +221,12 @@ span>a {
 
 
 .box01 {
+    position: relative;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     background-color: #f6f9fe;
-    
+
 
 }
 
@@ -271,16 +270,104 @@ span>h1 {
     background-color: rgba(81, 83, 83, 0.267);
     border-radius: 20px;
 }
+
 .equipe>img {
     width: 50%;
     position: absolute;
     margin-left: -280px;
     margin-top: 40px;
-   z-index: 2;
+    z-index: 2;
 }
 
 
 .box3 {
-    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+.box-wabes,
+svg {
+    width: 100%;
+    height: 50vh;
+    margin-top: 0;
+    margin-bottom: -165px;
+}
+
+.box3 {
+    height: 130vh;
+    background-color: #f6f9fe;
+
+}
+
+.servico {
+    height: 0%;
+    margin: 70px;
+    align-items: center;
+    justify-content: center;
     
+}
+
+.servico>img {
+    margin-top: -110px;
+    width: 35%;
+    z-index: 100;
+}
+
+.destaq1>h1 {
+    margin-top: -305px;
+    font-family: var(--font-robot);
+    font-weight: 200;
+    width: 40rem;
+    font-size: 2.2rem;
+    color: #4d515a;
+    margin-left: 540px;
+
+}
+
+.grupserv> #hg{
+    background-color: #3368db9f;
+
+   
+
+}
+
+
+
+.serv1 {
+    display: block;
+    align-items: center;
+    height: 180px;
+    width: 300px;
+    justify-content: center;
+    background-color: #2958b6;
+    border-radius: 15px;
+
+
+
+}
+
+.grupserv{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: .9rem;
+    column: ;
+}
+
+.serv1> h3 {
+    color: #fff;
+    width: 100%;
+    
+    align-items: center;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--font-robot);
+}
+
+.serv1>p {
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    width: 95%;
 }
