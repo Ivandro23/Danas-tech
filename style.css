@@ -42,17 +42,11 @@ a {
     text-decoration: none;
     gap: 50px;
     cursor: pointer;
-
-}
-
-a {
-    color: #1A202C;
+color: #1A202C;
 }
 
 header a:hover {
     color: #2958b6;
-
-
 }
 
 header>img {
@@ -302,72 +296,52 @@ svg {
 .servico {
     height: 0%;
     margin: 70px;
+    display: flex;
+    gap: 90px;
     align-items: center;
-    justify-content: center;
+    justify-content:space-between;
     
 }
 
 .servico>img {
-    margin-top: -110px;
-    width: 35%;
+    margin-top: 180px;
+    width: 40%;
     z-index: 100;
 }
 
-.destaq1>h1 {
-    margin-top: -305px;
+.in{
     font-family: var(--font-robot);
-    font-weight: 200;
-    width: 40rem;
-    font-size: 2.2rem;
-    color: #4d515a;
-    margin-left: 540px;
-
+    color: #2958b6;
+    font-size: 1.2rem;
+    margin: 0;
+    position:relative;
+    
 }
 
-.grupserv> #hg{
-    background-color: #3368db9f;
-
-   
-
+.destaq1{
+    position: relative;
+    margin-top: 60px;
+    font-family: var(--font-robot);
+}
+.mei{
+    margin-top: 60px;
+    position: relative;
+    width: 400px;
+    font-size: 2.8rem;
+    font-family: var(--font-robot);
+    color: #212529;
+    
 }
 
-
-
-.serv1 {
-    display: block;
-    align-items: center;
-    height: 180px;
-    width: 300px;
-    justify-content: center;
-    background-color: #2958b6;
-    border-radius: 15px;
-
-
-
+.destaq1>p{
+    font-size: 1.2rem;
+    width: 101%;
+    position: absolute;
+    color: #1A202C;
+    margin-top: 20px;
 }
 
 .grupserv{
-   
-    display: flex;
-    flex-wrap: wrap;
-    gap: .9rem;
-    column: ;
-}
+    width: 50%;
 
-.serv1> h3 {
-    color: #fff;
-    width: 100%;
-    
-    align-items: center;
-    padding-top: 25px;
-    text-align: center;
-    font-size: 1.4rem;
-    font-family: var(--font-robot);
-}
-
-.serv1>p {
-    font-size: 15px;
-    text-align: center;
-    margin: auto;
-    width: 95%;
 }
