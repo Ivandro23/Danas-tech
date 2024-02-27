@@ -13,7 +13,7 @@
     ;
 }
 
-body {}
+
 
 header {
     align-items: center;
@@ -208,19 +208,21 @@ span>a {
     content: ("");
     width: 400px;
     height: 400px;
-    background-color: rgba(43, 78, 233, 0.959);
+    background-color: #2958b6;
     border-radius: 1000px;
     margin-left: 220px;
 }
-
+ .box-equipe{
+    margin-top: 100px;
+    display: block;
+ }
 
 .box01 {
     position: relative;
     display: flex;
     width: 100%;
-    height: 85vh;
-    background-color: #f6f9fe;
-
+    height: 40rem;
+   background-color: #2958b6;
 
 }
 
@@ -229,7 +231,7 @@ span>a {
     display: flex;
     justify-content: space-between;
     width: 70%;
-    height: 90vh;
+    height: 10vh;
     background-color: #2958b6;
     z-index: 1;
 
@@ -275,23 +277,28 @@ span>h1 {
 
 
 .box3 {
-    height: 100vh;
+    height: 0vh;
     width: 100%;
 }
 
-.box-wabes,
+
+
+.waves1> img{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+ z-index:100 ;
+ margin-top:-254px;
+}
+
 svg {
     width: 100%;
     height: 50vh;
-    margin-top: 0;
+    margin-top: -50px;
     margin-bottom: -165px;
 }
 
-.box3 {
-    height: 130vh;
-    background-color: #f6f9fe;
 
-}
 
 .servico {
     height: 0%;
@@ -304,7 +311,7 @@ svg {
 }
 
 .servico>img {
-    margin-top: 180px;
+    margin-top: 5px;
     width: 40%;
     z-index: 100;
 }
@@ -320,14 +327,14 @@ svg {
 
 .destaq1{
     position: relative;
-    margin-top: 60px;
+   
     font-family: var(--font-robot);
 }
 .mei{
-    margin-top: 60px;
+    margin-top: 35px;
     position: relative;
-    width: 400px;
-    font-size: 2.8rem;
+    width: 43rem;
+    font-size: 3.1rem;
     font-family: var(--font-robot);
     color: #212529;
     
@@ -345,3 +352,52 @@ svg {
     width: 50%;
 
 }
+
+@media screen and (max-width: 1250px) {
+   nav{
+    display: none;
+   }
+body{ display: block;
+    flex-wrap: wrap;
+}
+   .box{
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+    
+   }
+
+   .container> .r0, .r1{
+     width: 100%;
+     margin: auto;
+     font-size: 3.9rem;
+     line-height: 70px; 
+     margin-left: 25px;
+   }
+
+   .r2{
+   text-align: center;
+    margin-top: 20px;
+    width:100%;
+}
+
+@media screen and (max-width: 768px) {
+    .r0 {
+        font-size: 24px;
+    }
+    .r1 {
+        font-size: 20px;
+    }
+    .r2 {
+        font-size: 16px;
+    }
+}
+
+    .logo,
+    img {
+      width:210px; /* Reduzir o tamanho do logotipo para telas menores */
+    }
+  
+   
+  }
+  
