@@ -353,15 +353,15 @@ svg {
 
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 768px) {
    nav{
     display: none;
    }
 body{ display: block;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
    .box{
-    display: inline-block;
+  display: inline-block;
     margin: auto;
     align-items: center;
     
@@ -381,23 +381,4 @@ body{ display: block;
     width:100%;
 }
 
-@media screen and (max-width: 768px) {
-    .r0 {
-        font-size: 24px;
-    }
-    .r1 {
-        font-size: 20px;
-    }
-    .r2 {
-        font-size: 16px;
-    }
 }
-
-    .logo,
-    img {
-      width:210px; /* Reduzir o tamanho do logotipo para telas menores */
-    }
-  
-   
-  }
-  
