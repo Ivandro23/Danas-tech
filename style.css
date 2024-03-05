@@ -385,6 +385,9 @@ svg {
     #me-bont{
         color: #f6f9fe;
         background-color: #2958b6;
+        width: 90%;
+        
+       
     }
 
     .menu-aparectation li{
@@ -395,21 +398,23 @@ svg {
     }
 
    #link-cor  li a  { 
-        color: #ffff;
+        color: #f0e6e6;
         z-index: 1000;
     }
 
     .menu-aparectation{
+    display: none;
     z-index: 5;
     border-radius: 20px;
     justify-self: center;
      position: absolute;
-     right: 2rem;
-     width: 250px;
+     right: 0.4rem;
+     width: 210px;
+     height: 0;
      height: 250px;
-     background-color: rgba(7, 7, 7, 0.568);
+     background-color: rgba(15, 12, 12, 0.507);
      align-items: center;
- 
+    transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
     }
     /* End-> apresentar menu */
 
@@ -433,7 +438,77 @@ svg {
     }
      
     .bont{
-        margin-right: -270px ;
+        margin-right: -270px;
+    }
+
+    .menu-aparectation{
+        display: ;
+        
+       }
+
+    #me-bont{
+        display:none;
+        
+    }
+
+    .box{
+        display: block;
+    }
+
+    .container{
+        position:relative;
+        width: 100%;
+        margin-top: -82px ;
+        background-color: #25786;
+    }
+
+    #in-1{
+        font-size: 5.7rem;
+    }
+
+    .r1{
+       
+        font-size: 8.4rem;
+    }
+
+    .r2{
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .suporte-tech{
+        position: relative;
+        top: 600px;
+    }
+
+    .pub1{
+        position: relative;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        left: -8rem; 
+        width: 100%; 
+    }
+
+    #pub2{
+        width: 860px;
+        margin-top: -28rem;
+    }
+
+    #element{
+   position: relative;
+    content: ("");
+   margin-left: 350px;
+    width: 30rem;
+    height: 30rem;
+    }
+
+
+
+
+    #seta{
+        display: none;
     }
 }
 
@@ -455,7 +530,40 @@ svg {
        .menu-icon>img{
         width: 95%;
        }
+
+       .menu-aparectation{
+       }
+
+
+       #me-bont{
+        display: block;       
     }
+
+        .me-bont{
+            justify-content: center;
+            display: flex;
+            margin-top: -13px;
+            align-items: center;
+        }
+    
+
+    
+        #in-1{
+            font-size: 5.7rem;
+        }
+    
+        .r1{
+            font-size: 8.4rem;
+        }
+    
+        .r2{
+            font-size: 1.3rem;
+            width: 42rem;
+        }    
+    
+    
+    }
+
 
 
 
