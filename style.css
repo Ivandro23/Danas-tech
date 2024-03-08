@@ -204,7 +204,7 @@ span>a {
     align-items: center;
     margin: auto;
     color: rgb(72, 133, 70);
-    background-color: rgb(30, 69, 206);
+    background-color: #2958b6;
     width: 70%;
     height: 8vh;
     border-radius: 10px;
@@ -442,7 +442,6 @@ svg {
     }
 
     .menu-aparectation{
-        display: ;
         
        }
 
@@ -459,7 +458,6 @@ svg {
         position:relative;
         width: 100%;
         margin-top: -82px ;
-        background-color: #25786;
     }
 
     #in-1{
@@ -478,22 +476,34 @@ svg {
 
     .suporte-tech{
         position: relative;
-        top: 600px;
+        top: 60px;
+        margin-left: -80px;
+        
+    }
+    #email{
+        display: none;
     }
 
+    #suport{
+        font-size: 1.3rem;
+    }
+
+
     .pub1{
-        position: relative;
+        position: absolute;
         top: 0;
         justify-content: center;
         align-items: center;
         display: block;
-        left: -8rem; 
-        width: 100%; 
+        left: -2rem; 
+        width: 100%;
+        top: 35rem; 
     }
 
     #pub2{
-        width: 860px;
-        margin-top: -28rem;
+        width: 50.9rem;
+        margin-top: -65rem;
+        top: 30px;
     }
 
     #element{
@@ -502,15 +512,40 @@ svg {
    margin-left: 350px;
     width: 30rem;
     height: 30rem;
+    top:-60px ;
     }
-
-
-
 
     #seta{
         display: none;
     }
+
+    .suporte-tech{
+        width: 60%;
+    
+    }
+
+    .box-equipe{
+        position: relative;
+        margin-top: 7rem;
+    }
+
+    #wave-top{
+        top:5rem;
+    }
+
+    .box2{
+        display: block;
+        position:absolute;
+    }
+
+    .textobox2{
+        width: 100%;
+        height: 100vh;
+    }
+
+
 }
+
 
 
 /* Resposividade Mobile*/
@@ -545,9 +580,7 @@ svg {
             margin-top: -13px;
             align-items: center;
         }
-    
-
-    
+     
         #in-1{
             font-size: 5.7rem;
         }
