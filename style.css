@@ -551,7 +551,6 @@ svg {
 
     #somos, p{
         width:100%;
-        grid-template-columns: 1fr;
         display: inline-block;
         justify-content: center;
         text-align: center;
@@ -601,7 +600,9 @@ svg {
        .menu-aparectation{
        }
 
-
+       .container #in-1 .r1 .r2{
+        width: 100%;
+       }
        #me-bont{
         display: block;       
     }
