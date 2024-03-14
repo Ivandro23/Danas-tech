@@ -18,8 +18,10 @@
 
 header {
     width: 100%;
-    position: relative;
-    background-color: #f6f6ff86;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: #fffffff8;
 
     
 }
@@ -40,8 +42,6 @@ nav{
 .logo,
 img {
     position: relative;
-    margin: px;
-   
 }
 
 ul,
@@ -172,7 +172,7 @@ span>a {
     margin-top: -30px;
     position: relative;
     width: 120%;
-    z-index: 1000;
+    z-index: 10;
 }
 
 .suporte-tech>input {
@@ -302,8 +302,8 @@ span>h1 {
     margin: 0;
     position: absolute;
     width: 100%;
- z-index:100 ;
- margin-top:-254px;
+    z-index:10 ;
+    margin-top:-254px;
 }
 
 svg {
@@ -420,212 +420,6 @@ svg {
     }
     /* End-> apresentar menu */
 
-
-/* Resposividade Tablet*/
-@media(max-width:990px) {
-    ul {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-        margin-right: 20px;
-    }
-
-    .menu-icon>img {
-        width: 95%;
-    }
-    nav{
-        justify-content: space-between;
-    }
-     
-    .bont{
-        margin-right: -270px;
-    }
-
-    .menu-aparectation{
-        
-       }
-
-    #me-bont{
-        display:none;
-        
-    }
-
-    .box{
-        display: block;
-    }
-
-    .container{
-        position:relative;
-        width: 100%;
-        margin-top: -82px ;
-    }
-
-    #in-1{
-        font-size: 5.7rem;
-    }
-
-    .r1{
-        font-size: 8.4rem;
-    }
-
-    .r2{
-        font-size: 1.4rem;
-        width: 100%;
-    }
-
-    .suporte-tech{
-        position: relative;
-        top: 60px;
-        margin-left: -80px;
-        
-    }
-    #email{
-        display: none;
-    }
-
-    #suport{
-        font-size: 1.3rem;
-    }
-
-
-    .pub1{
-        position: absolute;
-        top: 0;
-        justify-content: center;
-        align-items: center;
-        display: block;
-        left: -2rem; 
-        width: 100%;
-        top: 35rem; 
-    }
-
-    #pub2{
-        width: 50.9rem;
-        margin-top: -65rem;
-        top: 30px;
-    }
-
-    #element{
-   position: relative;
-    content: ("");
-   margin-left: 350px;
-    width: 30rem;
-    height: 30rem;
-    top:-60px ;
-    }
-
-    #seta{
-        display: none;
-    }
-
-    .suporte-tech{
-        width: 60%;
-    
-    }
-
-    .box-equipe{
-        position: relative;
-        margin-top: 7rem;
-    }
-
-    #wave-top{
-        top:5rem;
-    }
-
-    .box2{
-        display: block;
-        position:absolute;
-        display: center;
-        align-items: center;
-        margin: auto;
-        text-align: center;
-    }
-
-    .textobox2{
-       text-align: center;
-       margin: auto;
-       padding: auto;
-    }
-
-    #somos, p{
-        width:100%;
-        display: inline-block;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        
-    }    
-
-    .textobox2{
-        height: 50vh;
-
-
-    }
-
-    .equipe{
-        display: block;
-        align-items: center;
-        margin: auto;
-        margin-top:600px;
-    }
-
-    .container{
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-}
-
-
-
-/* Resposividade Mobile*/
-    @media(max-width:768px) {
-        .bont{
-            display: none;
-        }
-        nav{
-            justify-content: space-between;
-        }
-       .logo> img{
-        width: 190px;
-       } 
-       .menu-icon{
-        padding: 20px;
-       }
-       .menu-icon>img{
-        width: 95%;
-       }
-
-       .menu-aparectation{
-       }
-
-       .container #in-1 .r1 .r2{
-        width: 100%;
-       }
-       #me-bont{
-        display: block;       
-    }
-
-        .me-bont{
-            justify-content: center;
-            display: flex;
-            margin-top: -13px;
-            align-items: center;
-        }
-        #in-1{
-            font-size: 5.7rem;
-        }
-    
-        .r1{
-            font-size: 8.4rem;
-        }
-    
-        .r2{
-            font-size: 1.3rem;
-            width: 42rem;
-        }    
-    }
 
 
 
