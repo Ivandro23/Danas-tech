@@ -6,11 +6,11 @@
 
     .menu-icon {
         display: block;
-        margin-right: 20px;
+        margin-right: 2rem ;
     }
 
-    .menu-icon>img {
-        width: 95%;
+    #pub2{
+        max-width: 100%;
     }
     nav{
         justify-content: space-between;
